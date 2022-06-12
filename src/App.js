@@ -9,6 +9,7 @@ function App() {
         <p>
          Proximamente.. TiendaLezcano
         </p>
+        <p>coderhouse</p>
         <a
           className="App-link"
           href="https://reactjs.org"
