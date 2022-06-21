@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import "./assets/zapatillas.png"
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="row">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         Proximamente.. TiendaLezcano
-        </p>
-        <p>coderhouse</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <nav>
+        
+        <ul>
+
+          <div className='col'>
+          <li className='lista'> <a href=''>Inicio</a></li>
+          </div>
+          <div className='col'>
+          <li className='lista'><a href=''> Productos </a></li>
+          </div>
+          <div className='col'>
+          <li className='lista'><a href=''> Nosotros </a></li>
+          </div>
+  
+        </ul>
+
+        </nav>
+
       </header>
     </div>
   );
