@@ -3,11 +3,13 @@ import './App.css';
 
 function App() {
   return (
-    <div className="row">
       <header className="App-header">
+
+      <div className="row">
 
         <nav>
         
+
         <ul>
 
           <div className='col'>
@@ -24,8 +26,10 @@ function App() {
 
         </nav>
 
+        </div>
+
       </header>
-    </div>
+
   );
 }
 

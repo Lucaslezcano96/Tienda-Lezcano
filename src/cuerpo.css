@@ -1,0 +1,18 @@
+.Cuerpo{
+    display: flex;
+    justify-content:space-around;
+
+
+ 
+}
+
+.Tarjeta{
+    background-color: black;
+    color: white;
+    border: solid 1px black;
+    margin-top: 1rem;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+
+}

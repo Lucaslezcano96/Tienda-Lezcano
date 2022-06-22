@@ -3,14 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import navbar from './navbar';
+import Caja from './cuerpo'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <navbar />
+    <Caja nombre="Lucas" apellido="Lezcano" />
+    
 
   </React.StrictMode>
 );
